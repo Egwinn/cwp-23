@@ -12,7 +12,7 @@ const elements = {
     'LI': {
         name: 'Lithium',
         number: 3,
-        weight: 6.491
+        weight: 6.941
     },
     'BE': {
         name: 'Berylium',
@@ -30,7 +30,5 @@ module.exports = (element) => {
     if (element) {
         return elements[element.toUpperCase()] || null;
     }
-    else {
-        throw new Error('element is undefined');
-    }
+    else throw new Error('element is undefined');
 };
