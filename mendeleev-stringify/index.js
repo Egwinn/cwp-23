@@ -5,5 +5,5 @@ module.exports = (element) => {
     if (elem) {
         return elem.number + '. ' +  elem.name + ' / ' + elem.weight;
     }
-    else throw new Error('Element doesn\'t exits');
+    else throw new Error('Element does not exits');
 };
