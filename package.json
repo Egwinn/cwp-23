@@ -1,0 +1,15 @@
+{
+    "name": "cwp-23",
+    "version": "1.0.0",
+    "description": "The twenty third laboratory work on Cross Platform Programming",
+    "main": "index.js",
+    "repository": "https://github.com/Egwinn/cwp-23",
+    "author": "Egwinn",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "mendeleev",
+        "mendeleev-master",
+        "mendeleev-stringify"
+    ]
+}
