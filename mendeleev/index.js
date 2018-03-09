@@ -4,17 +4,17 @@ const elements = {
         number: 1,
         weight: 1.008,
     },
-    'He': {
+    'HE': {
         name: 'Helium',
         number: 2,
         weight: 4.003,
     },
-    'Li': {
+    'LI': {
         name: 'Lithium',
         number: 3,
         weight: 6.491
     },
-    'Be': {
+    'BE': {
         name: 'Berylium',
         number: 4,
         weight: 9.012
